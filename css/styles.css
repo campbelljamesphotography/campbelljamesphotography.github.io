@@ -13,7 +13,7 @@
     height: auto !important;
     margin-bottom:5px; /* to match column gap */
     filter: grayscale(100%);
-    transition: filter .5s;
+    transition: filter 5s;
 
  }
  #gallery img:hover {
