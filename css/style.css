@@ -1,38 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
-/* text css above hero image*/
-.hero_title {
-    font-size: 4.5rem;
-    font-family: Poppins, sans-serif;
-    color: #25242e;
-}
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url("css/images/hero-image.jpeg");
-    background-size:cover;
-    position:relative;
-}
-.hero_desc {
-    font-size: 2rem;
-    color: #383749;
-    background-color: transparent;
-}
-.form-box{
-    position:relative;
-    width: 800px;
-    height: 200px;
-    background: transparent;
-    border: none;
-    border-radius: 20px;
-    backdrop-filter: blur(4.5px);
-    display: flex;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .hero-text {
     text-align: center;
