@@ -1,73 +1,289 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>Portfolio Website - Campbell</title>
+  <link rel="icon" type="image/x-icon" href="CSS/images/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#home"><img src="CSS/images/favicon-3.png" style="width: 25px; height: 25px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-    <section class="bgimage" id="home">
-        <div class="form-box">
-            <div class="container-fluid">
-                <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title">Photography</h2>
-                    <p class="hero_desc">
-                      Welcome, to my photo Gallery
-                      <br>
-                    </p>
-                    <p2>This is one of many galleries here on my site, this shows the starting stages of my photography journey</p2>
+            <span class="navbar-toggler-icon"></span>
+            
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" style="color: white;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" style="color: white;">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" style="color: white;">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+ <!-- main banner -->
+ <section class="bgimage" id="home">
+    <div class="form-box">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, I'm Campbell</h2>
+                <p class="hero_desc">An IT student & Student Photographer in Doncaster</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section-->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me </h1>
+        <div class="row mt-4">
+            <div class="col-lg-4">
+                <img src="CSS/images/about.jpeg" class= "imageAboutPage" alt="" style="border: 5px solid rgb(146, 146, 165); border-radius: 20px;">
+            </div>
+
+            <div class="col-lg-8">
+                <p> 
+                    <br>
+                    
+                    I am Campbell, a student based in Doncaster, a small city within England, I have been studying IT and 
+                    Photography towards my qualifications for the past 2 years and am a hard working indivudual with a drive 
+                    for challenge and change.
+                </p>
+                <div class="row mt-3">
+
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Name: Campbell Downie</li>
+                            <li>Age: 18</li>
+                            <li>Occupation: IT & Photography Student</li>
+
+                        </ul>
+                    </div>
                 </div>
+                <div class="row mt-3">
+                    <p> 
+                        I have had an interest in IT since I was a young boy, learning simple javascript programming from the age of 8 and throughout my years have developed more and more complex knowledge on programming languages 
+                        and how they work. I studied Computer Science at GCSE and this was a more in depth look and languages like 
+                        HTML and Python, this was another eye-opening experence as I had never explored these languages. I learnt 
+                        how to make a program work and how to adapt and change it to my will, giving me more creative freedom.<br>
+                        <br>
+                        When it comes to photography, it began when I was using my mobile phone in the 2020 Lockdown, my 
+                        school hosted a competition on who could take the best photo and I entered, this opening my eyes to 
+                        the joy of taking photos and over time this grew into a passion. My first camera was a PRAKTICA SLR and 
+                        this was a family camera that was my Great Grandfather. I applied for my A Level course and this was where 
+                        my journey began. I got a Canon EOS 2000D for christmas and ive been developing my skills since.
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-  <title>Image Gallery</title>
-  <meta name="description" content="Responsive Image Gallery">
-  <style type="text/css">
-  </style>
+</section>
+<!-- services section-->
+<section id="services">
+    <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development</h4>
+                        <p class="card-text mt-3"> I have been interested and have studied HTML since I was in my 7th 
+                            academic year, I worked on my own simple websites and researching other designs for inspiration, 
+                            I did it within my IT course before my GCSEs and then within my IT course in Post-16.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design</h4>
+                        <p class="card-text mt-3"> Other than some basics, my website design is that of online 
+                            inspiration and of my own learning, I have been doing this for a few years now and ive 
+                            been able to develop a personal style using visual elements.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment</h4>
+                        <p class="card-text mt-3">When it comes to deployment, through my CAMTECH course I know 
+                            documentation is key to manage a project among other things. I learnt this is one of 
+                            my first units, I have also deployed a website already for a consultancy 
+                            <a href="https://jfdconsultingltd.com">JFD Consulting.</a> this was through Google's 
+                            domain and site systems.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-search'></i>
+                        <h4 class="card-title mt-3">Project Management Documentation</h4>
+                        <p class="card-text mt-3">Within my IT projects I was taught the right way to document 
+                            my work, in the Project Management unit this was a key peice of the assignments we 
+                            were taught PRINCE2 documentation and the work done was at workplace level.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">Photo Composition</h4>
+                        <p class="card-text mt-3"> For my A Level in Photography began with learning the 
+                            professional and workplace standard of how to frame photos, this was done in my first
+                             year before developing these skills into more flowing and bigger ideas, and this 
+                             lead to my final pieces.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">Photo Editing</h4>
+                        <p class="card-text mt-3">Within my course I also learned the skills of photo editing and 
+                            manipulation, this was through the Adobe Creative Suite (Photoshop & Lightroom). 
+                            This was done under a tutors guidance and was done to the highest standard within 
+                            the projects and big pieces we also documented the edits.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+<!-- portfolio section-->
+<section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="CSS/images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">Photo Gallery</h4>
+                        <p class="card-text">Over the past 2 years I have been continually taking photos and uploading them to my instagram page but I also have some of my final peice shots that I am especially proud of.</p>
+                        <div class="text-center">
+                            <a href="photography.html" class="btn btn-success">Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="CSS/images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">IT Portfolio</h4>
+                        <p class="card-text">Over my time in college I have collated and created documents</p>
+                        <div class="text-center">
+                            <a href="it.html" class="btn btn-success" >Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+</section>
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Doncaster,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <p>
+                    I am based within the area of Doncaster, its an architecturally and this makes it perfect for my photography journey and it 
+                    helped with my overall development of my skills.
+                    <br>
+                    <br>
+                    Feel free to contact me if you have any questions!
+                    <br>
+                    <br>
+                    e: campbell3011@gmail.com
+                    <br>
+                    t: +44 7488 353619
+                </p>
+                <button type="button" class="btn btn-success mt-3"><a href="mailto:campbell3011@gmail.com" target="_blank" class="contactbutt" style="color: white;">Contact Me</a></button>
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+ <!-- footer section-->
+ <footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <a href="https://www.instagram.com/cam._.3011/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/CDownie2004/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/campbell-downie-a20449232/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</footer>
 </head>
+
 <body>
-    <header>
-        <br>
-        <br>
-        <br>
-        <p>I take a camera everywhere with me, heres why...</p>
-        <p class="caption">(images are in a compressed form)</p>
-        <br>
-      </header>
-<div id="gallery">
-  
-   <img src="images/image-001.jpg">
-   <img src="images/image-002.jpg">
-   <img src="images/image-003.jpg">
-   <img src="images/image-004.jpg">
-   <img src="images/image-005.jpg">
-   <img src="images/image-006.jpg">
-   <img src="images/image-007.jpg">
-   <img src="images/image-008.jpg">
-   <img src="images/image-009.jpg">
-   <img src="images/image-010.jpg">
-   <img src="images/image-011.jpg">
-   <img src="images/image-013.jpg">
-   <img src="images/image-014.jpg">
-   <img src="images/image-015.jpg">
-   <img src="images/image-016.jpg">
-   <img src="images/image-017.jpg">
-   <img src="images/image-018.jpg">
-   <img src="images/image-019.jpg">
-   <img src="images/image-020.jpg">
-   <img src="images/image-021.jpg">
-   <img src="images/image-022.jpg">
-   <img src="images/image-023.jpg">
-   <img src="images/image-024.jpg">
-  
-  </div>
- 
- </body>
+    <script src="script.js"></script>
+</body>
 </html>
