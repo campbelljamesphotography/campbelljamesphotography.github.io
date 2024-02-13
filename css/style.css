@@ -3,9 +3,8 @@
 /* hero background image */
 .hero-image {
     height:100vh;
-    background: url("images/IMG_0661.JPG");
+    background: url("images/hero-image.jpeg");
     background-size:cover;
-
     position:relative;
 }
 /* text css above hero image*/
